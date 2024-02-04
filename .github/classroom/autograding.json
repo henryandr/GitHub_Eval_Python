@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Test1",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest ./tests/test_compare.py -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Test2",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest ./tests/test_factorial.py -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Test3",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest ./tests/test_payment.py -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
